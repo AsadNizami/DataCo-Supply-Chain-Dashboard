@@ -12,7 +12,8 @@ dashboard/.env.*.local
 # Dataset (too large for git)
 archive/
 data.json
-dashboard/public/data.json
+
+# dashboard/public/data.json is intentionally committed (1.1 MB sample, needed for Netlify build)
 
 # Logs
 npm-debug.log*
