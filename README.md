@@ -148,7 +148,7 @@ This regenerates both `data.json` (project root) and `dashboard/public/data.json
 
 ```bash
 # 1. Clone or download the project
-cd dhl-claude
+cd DataCo-Supply-Chain-Dashboard
 
 # 2. (Optional) Re-run preprocessing if you have the raw CSV
 python3 preprocess.py
