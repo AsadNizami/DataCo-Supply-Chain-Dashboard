@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  background-color: #0f172a;
+  color: #e2e8f0;
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.chart-card {
+  @apply bg-slate-800 rounded-xl p-5 border border-slate-700 relative;
+}
+
+.ai-bubble {
+  @apply absolute bottom-3 right-3 bg-gradient-to-r from-blue-600 to-violet-600 hover:from-blue-500 hover:to-violet-500 text-white text-xs font-semibold px-3 py-1.5 rounded-full shadow-lg cursor-pointer flex items-center gap-1.5 transition-all duration-200 z-10;
+}
+
+.ai-tooltip {
+  @apply fixed z-50 bg-slate-900 border border-blue-500/60 rounded-xl p-4 shadow-2xl text-sm text-slate-200 leading-relaxed;
+  max-width: 340px;
+  backdrop-filter: blur(12px);
+}

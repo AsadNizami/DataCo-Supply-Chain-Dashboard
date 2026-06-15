@@ -1,0 +1,34 @@
+# Dependencies
+dashboard/node_modules/
+
+# Build output
+dashboard/dist/
+
+# Environment variables
+dashboard/.env
+dashboard/.env.local
+dashboard/.env.*.local
+
+# Dataset (too large for git)
+archive/
+data.json
+dashboard/public/data.json
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TypeScript cache
+dashboard/*.tsbuildinfo
+dashboard/tsconfig.tsbuildinfo
